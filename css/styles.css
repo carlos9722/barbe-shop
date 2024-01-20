@@ -1,0 +1,80 @@
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  /* padding: 160px 0 80px 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-hero {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: 1;
+}
+.hero .container,
+.hero > .container-fluid {
+  position: relative;
+  z-index: 3;
+}
+.bg-appointment {
+  background: #1bbc9b;
+}
+.nav-link {
+  color: #fff;
+  background: transparent !important;
+  font-weight: 700;
+}
+.nav-pills .nav-link.active {
+  color: #c09457;
+}
+.icon-sm {
+  width: 2rem;
+  width: 2rem;
+}
+.icon-md {
+  width: 3rem;
+  height: 3rem;
+}
+.icon-lg {
+  width: 6rem;
+  height: 6rem;
+}
+.bg-shadow {
+  background: #f0f0f0;
+}
+.hero-sm {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-discount {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img-discount {
+  width: 100%;
+  height: 35%;
+}
+.link-green {
+  color: #27bea6;
+  text-decoration: underline;
+  font-weight: 600;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.dotted {
+  border-bottom: dotted;
+}
+.quote {
+  font-size: 7rem;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1;
+}
